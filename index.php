@@ -29,6 +29,18 @@
             animation: fall linear infinite;
         }
 
+        .absorbrock {
+            position: absolute;
+            font-size: 20px; /* Size of the snowflakes */
+            color: blue;
+            opacity: 0.8;
+            user-select: none;
+            font-size: 15px;
+            z-index: 9999; /* Make sure snowflakes are on top */
+            animation: fall linear infinite;
+        }
+
+
         /* Snowflake animation */
         @keyframes fall {
             0% {
@@ -135,13 +147,13 @@
                 if (snowflakes.length < 71) {
                     const snowflake = document.createElement('div');
                     snowflake.classList.add('snowflake');
-                    snowflake.innerText = '*';
+                    snowflake.innerHTML = '&#x25CF;';
 
                     const randomX = Math.random() * window.innerWidth;
                     snowflake.style.top = '-50px';
                     snowflake.style.left = `${randomX}px`;
 
-                    const randomFontSize = Math.random() * 50 + 10;
+                    const randomFontSize = Math.random() * 30 + 10;
                     snowflake.style.fontSize = `${randomFontSize}px`;
 
                     const duration = Math.random() * 3 + 3;
@@ -162,6 +174,36 @@
 
             // Call the function to create snowflakes every 100ms
             setInterval(createSnowflake, 100);
+
+            let bluepowerups = [];
+            function createbpu() {
+                if (bluepowerups.length < 6) {
+                    const pu = document.createElement('div');
+                    pu.classList.add('absorbrock');
+                    pu.innerHTML = '&#x25CF;';
+
+                    const randomX = Math.random() * window.innerWidth;
+                    pu.style.top = '-50px';
+                    pu.style.left = `${randomX}px`;
+
+                    const duration = Math.random() * 3 + 3;
+                    pu.style.animationDuration = `${duration}s`;
+
+                    const delay = Math.random() * 0.25;
+                    pu.style.animationDelay = `${delay}s`;
+
+                    bluepowerups.push(pu);
+
+                    document.getElementById('snowflakes').appendChild(pu);
+                    pu.addEventListener('animationend', () => {
+                        pu.remove();
+                        bluepowerups = pu.filter(s => s !== pu);
+                    });
+                }
+            }
+
+            // Call the function to create snowflakes every 100ms
+            setInterval(createbpu, 100);
             
 
             
