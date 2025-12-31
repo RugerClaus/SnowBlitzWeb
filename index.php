@@ -131,7 +131,7 @@
                 if (snowflakes.length < 71) {
                     const snowflake = document.createElement('div');
                     snowflake.classList.add('snowflake');
-                    snowflake.innerText = '+';
+                    snowflake.innerText = '*';
 
                     const randomX = Math.random() * window.innerWidth;
                     snowflake.style.top = '-50px';
