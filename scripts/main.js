@@ -150,5 +150,5 @@ else {
 
 const copyright = document.getElementById("copyright_year")
 const date = new Date().getFullYear()
-copyright.innerHTML = `Them Coldblooded Drifters &copy; ${date}`
+copyright.innerHTML = `&copy; ${date} Snow Blitz. All rights reserved.`
 

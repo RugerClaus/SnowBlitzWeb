@@ -121,7 +121,7 @@
 
         <footer>
             <div class="footer_section">
-                <p>© 2025 Snow Blitz. All rights reserved.</p>
+                
             </div>
         </footer>
 
