@@ -151,3 +151,4 @@ else {
 const copyright = document.getElementById("copyright_year")
 const date = new Date().getFullYear()
 copyright.innerHTML = `Them Coldblooded Drifters &copy; ${date}`
+

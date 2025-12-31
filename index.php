@@ -6,6 +6,41 @@
         <link rel="stylesheet" href="styles/main.css">
         <title>Snow Blitz - Official Website</title>
     </head>
+
+    <style>
+        /* Snowflakes container */
+        #snowflakes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none; /* Snowflakes won’t block clicks */
+        }
+
+        /* Snowflake style */
+        .snowflake {
+            position: absolute;
+            font-size: 20px; /* Size of the snowflakes */
+            color: white;
+            opacity: 0.8;
+            user-select: none;
+            z-index: 9999; /* Make sure snowflakes are on top */
+            animation: fall linear infinite;
+        }
+
+        /* Snowflake animation */
+        @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+    </style>
     <body>
 
         <!-- Fixed Elements - game download, social media links -->
@@ -18,38 +53,22 @@
             </ul>
         </nav>
 
-        <div class="socials_sidebar_wrapper">
-            <div class="close_socials_button">
-                >>
-            </div>
-            <div class="socials_inner_wrapper">
-                <a href="https://twitter.com/YourGameHandle" target="_blank">
-                    <img src="https://yourgame.com/assets/socials/twitter.png" alt="Twitter">
-                </a>
-                <a href="https://www.instagram.com/YourGameHandle" target="_blank">
-                    <img src="https://yourgame.com/assets/socials/instagram.png" alt="Instagram">
-                </a>
-                <a href="https://www.youtube.com/YourGame" target="_blank">
-                    <img src="https://yourgame.com/assets/socials/youtube.png" alt="YouTube">
-                </a>
-            </div>
-        </div>
-
         <!-- Landing Page -->
         <section class="landing_section_wrapper">
+            <div id="snowflakes"></div>
             <div class="top">
                 <div class="top_inner_wrapper">
-                    <img id="game_logo" src="https://yourgame.com/assets/images/logo.png" alt="Snow Blitz Logo">
+                    <img id="game_logo" src="assets/logo.png" alt="Snow Blitz Logo">
                 </div>
             </div>
             <div class="bottom">
                 <div class="bottom_inner_wrapper">
                     <nav class="navbar">
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About the Game</a></li>
-                            <li><a href="#download">Download</a></li>
-                            <li><a href="#changelog">changelog</a></li>
+                            <li><a href="#home" class="leftbutton">Home</a></li>
+                            <li><a href="#about" class="leftbutton">About the Game</a></li>
+                            <li><a href="#download" class="rightbutton">Download</a></li>
+                            <li><a href="#changelog" class="rightbutton">changelog</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -106,5 +125,42 @@
         </footer>
 
         <script src="scripts/main.js"></script>
+        <script>
+            let snowflakes = [];
+            function createSnowflake() {
+                if (snowflakes.length < 71) {
+                    const snowflake = document.createElement('div');
+                    snowflake.classList.add('snowflake');
+                    snowflake.innerText = '+';
+
+                    const randomX = Math.random() * window.innerWidth;
+                    snowflake.style.top = '-50px';
+                    snowflake.style.left = `${randomX}px`;
+
+                    const randomFontSize = Math.random() * 40 + 10;
+                    snowflake.style.fontSize = `${randomFontSize}px`;
+
+                    const duration = Math.random() * 3 + 3;
+                    snowflake.style.animationDuration = `${duration}s`;
+
+                    const delay = Math.random() * 0.25;
+                    snowflake.style.animationDelay = `${delay}s`;
+
+                    snowflakes.push(snowflake);
+
+                    document.getElementById('snowflakes').appendChild(snowflake);
+                    snowflake.addEventListener('animationend', () => {
+                        snowflake.remove();
+                        snowflakes = snowflakes.filter(s => s !== snowflake);
+                    });
+                }
+            }
+
+            // Call the function to create snowflakes every 100ms
+            setInterval(createSnowflake, 100);
+            
+
+            
+    </script>
     </body>
 </html>

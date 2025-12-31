@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowflakes Test Page</title>
+    <style>
+        /* Full-page black background */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden; /* Hide anything that falls outside the screen */
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Snowflakes container */
+        #snowflakes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none; /* Snowflakes won’t block clicks */
+        }
+
+        /* Snowflake style */
+        .snowflake {
+            position: absolute;
+            font-size: 20px; /* Size of the snowflakes */
+            color: white;
+            opacity: 0.8;
+            user-select: none;
+            z-index: 9999; /* Make sure snowflakes are on top */
+            animation: fall linear infinite;
+        }
+
+        /* Snowflake animation */
+        @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Snowflakes container -->
+    <div id="snowflakes"></div>
+
+    <script>
+        // Function to create a snowflake element
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+            snowflake.innerText = '*'; // Use '*' for snowflakes, you can change to any symbol
+
+            // Randomly place the snowflake horizontally
+            const randomX = Math.random() * window.innerWidth;
+            snowflake.style.left = `${randomX}px`;
+
+            // Randomly set the animation duration (to make snowflakes fall at different speeds)
+            const duration = Math.random() * 3 + 3; // Between 3 and 6 seconds
+            snowflake.style.animationDuration = `${duration}s`;
+
+            // Randomly set the animation delay (to offset the start time of each snowflake)
+            const delay = Math.random() * 5;
+            snowflake.style.animationDelay = `${delay}s`;
+
+            // Append the snowflake to the container
+            document.getElementById('snowflakes').appendChild(snowflake);
+
+            // Remove snowflake from the DOM once it falls out of the screen
+            snowflake.addEventListener('animationend', () => {
+                snowflake.remove();
+            });
+        }
+
+        // Create snowflakes every 100 milliseconds
+        setInterval(createSnowflake, 100);
+    </script>
+
+</body>
+</html>

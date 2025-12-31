@@ -82,67 +82,6 @@ body {
     height: 100%;
 }
 
-.corner_record_wrapper {
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
-    z-index: 100;
-}
-
-.corner_record_wrapper img:hover {
-    animation: spin_record 2000s infinite;
-}
-
-.socials_sidebar_wrapper {
-    position: fixed;
-    width: 8rem;
-    background-color: rgba(128,128,128,0.5);
-    right: 0;
-    top: 20vh;
-    height: 25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.socials_sidebar_wrapper .socials_inner_wrapper {
-    width: 90%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.socials_sidebar_wrapper .close_socials_button {
-    width: 2rem;
-    height: 2rem;
-    background-color: red;
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.message_status {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    height: 2rem;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    position: fixed;
-    top: auto;
-    left: auto;
-    bottom: 4rem;
-    right: 2rem;
-    padding: 2px;
-}
-
 .band_member_nav {
     display: none;
     position: fixed;
@@ -182,12 +121,35 @@ body {
     font-size: clamp(.3rem, 2vw + .4rem, 1rem);
 }
 
+
+/* set up snow flakes for the landing page */
+
+#snowflakes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; /* Snowflakes won't interact with clicks */
+}
+.snowflake {
+    position: absolute;
+    font-size: 20px; /* You can adjust the size of snowflakes here */
+    color: white;
+    opacity: 0.8;
+    user-select: none;
+    z-index: 9999; /* Make sure snowflakes appear on top */
+    animation: fall linear infinite;
+}
+
 .landing_section_wrapper {
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ff9d00;
+    background-color: rgb(0,0,0);
+    color: white;
+    overflow: hidden;
 }
 
 .landing_section_wrapper .top {
@@ -249,13 +211,18 @@ body {
 }
 
 .landing_section_wrapper .bottom .bottom_inner_wrapper nav ul li a {
-    color: #4b0e85;
+    color: whitesmoke;
     font-size: xx-large;
 }
 
-.landing_section_wrapper .bottom .bottom_inner_wrapper nav ul li a:hover {
-    animation: fade_button .5s;
-    color: #8c49cc;
+.landing_section_wrapper .bottom .bottom_inner_wrapper nav ul li .rightbutton:hover {
+    animation: fade_button_right .5s;
+    color: #e6aaf7;
+}
+
+.landing_section_wrapper .bottom .bottom_inner_wrapper nav ul li .leftbutton:hover {
+    animation: fade_button_left .5s;
+    color: #b6f5f0;
 }
 
 .landing_section_wrapper .bottom .bottom_inner_wrapper nav .mobile_socmed {
@@ -538,14 +505,24 @@ footer .footer_section p {
 
 /* ANIMATIONS */
 
-@keyframes fade_button {
+@keyframes fade_button_right {
     0% {
-        color: #4b0e85;
+        color: #ffffff;
     }
     100% {
-        color: #8c49cc;
+        color: #e6aaf7;
     }
 }
+
+@keyframes fade_button_left {
+    0% {
+        color: #ffffff;
+    }
+    100% {
+        color: #b6f5f0;
+    }
+}
+
 
 @keyframes spin_record {
     from {
@@ -556,30 +533,23 @@ footer .footer_section p {
     }
 }
 
-@keyframes close_socials {
-    from {
-        width: 8rem;
-    }
-    to {
-        width: 2rem;
-    }
-}
-
-@keyframes open_socials {
-    from {
-        width: 2rem;
-    }
-    to {
-        width: 8rem;
-    }
-}
-
 @keyframes carousel_fade_in {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
     }
 }
 
