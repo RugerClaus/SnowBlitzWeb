@@ -40,6 +40,18 @@
                 opacity: 0;
             }
         }
+        @media(max-width: 640px){
+            @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(200vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        }
     </style>
     <body>
 
