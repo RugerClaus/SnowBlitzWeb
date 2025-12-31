@@ -5,6 +5,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: Helvetica;
+    overflow-x: hidden;
 }
 
 .hiddensiteimg {
@@ -150,6 +151,7 @@ body {
     max-width: 60%;
     object-fit: contain;
 }
+
 .landing_section_wrapper .bottom {
     width: 100%;
     display: flex;
