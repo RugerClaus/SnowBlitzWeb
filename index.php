@@ -119,9 +119,12 @@
             <a href="https://download-link.com" class="download_button">Download Now</a>
         </section>
 
+        <section class="changelog_wrapper" id="changelog">
+        </section>
+
         <footer>
             <div class="footer_section">
-                
+                <p id="copyright_year"></p>
             </div>
         </footer>
 

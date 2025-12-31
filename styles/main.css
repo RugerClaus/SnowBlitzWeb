@@ -405,8 +405,8 @@ body {
 
 }
 
-/* LIVE PAGE */
-.live_wrapper {
+/* changelog PAGE */
+.changelog_wrapper {
     display: flex;
     min-height: 100vh;
     background-color: rgba(0,0,0,0.9);
