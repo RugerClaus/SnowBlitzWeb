@@ -91,10 +91,10 @@
                 </div>
                 <div class="article_section_wrapper">
                     <article class="text_left_wrapper">
-                        <p id="left_home_text">Snow Blitz is an action-packed, fast-paced game where you control a character trying to survive endless snowstorms! Stay tuned for upcoming features and changelog!</p>
+                        <p id="left_home_text">Snow Blitz is an action-packed, fast-paced game where you control a snowball that is constantly melting</p>
                     </article>
                     <article class="text_right_wrapper">
-                        <p id="right_home_text">Join the community, download the game, and experience the challenge. Stay active on social media to get the latest news and changelog!</p>
+                        <p id="right_home_text">Catch snow and grow before you melt. Watch out for falling rocks!</p>
                     </article>
                 </div>
             </div>
