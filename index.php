@@ -137,7 +137,7 @@
                     snowflake.style.top = '-50px';
                     snowflake.style.left = `${randomX}px`;
 
-                    const randomFontSize = Math.random() * 40 + 10;
+                    const randomFontSize = Math.random() * 50 + 10;
                     snowflake.style.fontSize = `${randomFontSize}px`;
 
                     const duration = Math.random() * 3 + 3;
