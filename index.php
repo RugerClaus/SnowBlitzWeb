@@ -68,7 +68,7 @@
                             <li><a href="#home" class="leftbutton">Home</a></li>
                             <li><a href="#about" class="leftbutton">About the Game</a></li>
                             <li><a href="#download" class="rightbutton">Download</a></li>
-                            <li><a href="#changelog" class="rightbutton">changelog</a></li>
+                            <li><a href="#changelog" class="rightbutton">Changelog</a></li>
                         </ul>
                     </nav>
                 </div>
