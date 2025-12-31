@@ -121,27 +121,6 @@ body {
     font-size: clamp(.3rem, 2vw + .4rem, 1rem);
 }
 
-
-/* set up snow flakes for the landing page */
-
-#snowflakes {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none; /* Snowflakes won't interact with clicks */
-}
-.snowflake {
-    position: absolute;
-    font-size: 20px; /* You can adjust the size of snowflakes here */
-    color: white;
-    opacity: 0.8;
-    user-select: none;
-    z-index: 9999; /* Make sure snowflakes appear on top */
-    animation: fall linear infinite;
-}
-
 .landing_section_wrapper {
     height: auto;
     display: flex;
