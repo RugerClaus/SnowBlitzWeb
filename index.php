@@ -142,11 +142,17 @@
 
         <script src="scripts/main.js"></script>
         <script>
-            const landsect = document.querySelector('.landing_section_wrapper')
-            const landrect = landsect.getBoundingClientRect()
-            const width = landrect.width
-            let snowflakes = [];
+            const landsect = document.querySelector('.landing_section_wrapper') 
             
+            function get_width()
+            {
+                return landsect.getBoundingClientRect().width
+                  
+                
+            }            
+            
+            let snowflakes = [];
+            let width = get_width()
             function get_snowfall_threshold()
             {
                 if (width > 1000)
