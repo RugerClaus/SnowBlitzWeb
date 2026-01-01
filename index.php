@@ -142,9 +142,25 @@
 
         <script src="scripts/main.js"></script>
         <script>
+            const landsect = document.querySelector('.landing_section_wrapper')
+            const landrect = landsect.getBoundingClientRect()
+            const width = landrect.width
             let snowflakes = [];
+            
+            function get_snowfall_threshold()
+            {
+                if (width > 1000)
+                {
+                    return 71
+                }
+                else
+                {
+                    return 40
+                }
+            }
+
             function createSnowflake() {
-                if (snowflakes.length < 71) {
+                if (snowflakes.length < get_snowfall_threshold()) {
                     const snowflake = document.createElement('div');
                     snowflake.classList.add('snowflake');
                     snowflake.innerHTML = '&#x25CF;';
