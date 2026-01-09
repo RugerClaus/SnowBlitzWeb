@@ -422,6 +422,11 @@ body {
 .leaderboard_wrapper .leaderboard_table_wrapper table{
     border: 1px white;
     display: flex;
+    flex-direction: column;
+}
+
+.leaderboard_wrapper .leaderboard_table_wrapper table tr td{
+    border: 1px solid white
 }
 
 /* changelog PAGE */
