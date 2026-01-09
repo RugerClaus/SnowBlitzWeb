@@ -107,8 +107,9 @@ fetch(`https://snowblitz.net/api/getLeaderboard.php`, {
 })
 .then(data => {
   if (data && Array.isArray(data) && data.length) {
-    console.log("Loading Leaderboard Data: ", data);
-    render_leaderboard(data);
+    const sortedData = data.sort((a, b) => b.score - a.score);
+    console.log("Loading Leaderboard Data: ", sortedData);
+    render_leaderboard(sortedData);
   } else {
     console.warn("Empty API response, using defaults.");
   }
