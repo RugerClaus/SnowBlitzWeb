@@ -103,22 +103,19 @@ fetch(`https://snowblitz.net/api/getLeaderboard.php`, {
   headers: {
     'Content-Type': 'application/json'
   }
-  },)
-  .then(res => {
-    if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
-    return res.json();
-  })
-  .then(data => {
-    const leaderboard_data = data;
-    if (Array.isArray(leaderboard_data) && leaderboard_data.length) {
-      console.log("Loading Leaderboard Data: " + data.status)
-      render_leaderboard(leaderboard_data)
-    } 
-    else 
-    {
-      console.warn("Empty API response, using defaults.")
-    }
-  })
-  .catch((error) => {
-      console.warn("Fetch error, no leaderboard data available", error)
-  });
+})
+.then(res => {
+  if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+  return res.json();
+})
+.then(data => {
+  if (data && Array.isArray(data) && data.length) {
+    console.log("Loading Leaderboard Data: ", data);
+    render_leaderboard(data);
+  } else {
+    console.warn("Empty API response, using defaults.");
+  }
+})
+.catch((error) => {
+  console.warn("Fetch error, no leaderboard data available", error);
+});
