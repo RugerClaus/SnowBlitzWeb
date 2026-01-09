@@ -434,7 +434,10 @@ body {
 .leaderboard_wrapper .leaderboard_table_wrapper table tr td{
     border: 1px solid white;
     width: 100%;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 /* changelog PAGE */
