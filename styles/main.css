@@ -428,11 +428,11 @@ body {
 .leaderboard_wrapper .leaderboard_table_wrapper table tr {
     display: flex;
     justify-content: space-evenly;
-    gap: 2rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .leaderboard_wrapper .leaderboard_table_wrapper table tr td{
-    border: 1px solid white;
     width: 100%;
     display: flex;
     justify-content: center;

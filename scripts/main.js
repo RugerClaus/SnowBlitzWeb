@@ -75,7 +75,7 @@ function render_leaderboard(items) {
 
   const header = table.createTHead();
   const headerRow = header.insertRow();
-  const headers = ['id', 'username', 'score', 'created_at', 'updated_at'];
+  const headers = ['Username', 'Score'];
   
   headers.forEach(headerText => {
     const th = document.createElement('th');
@@ -86,11 +86,8 @@ function render_leaderboard(items) {
   const tbody = table.createTBody();
   items.forEach(item => {
     const row = tbody.insertRow();
-    row.insertCell().innerText = item.id;
     row.insertCell().innerText = item.username;
     row.insertCell().innerText = item.score;
-    row.insertCell().innerText = item.created_at;
-    row.insertCell().innerText = item.updated_at;
   });
 
   const leaderboardContainer = document.querySelector('.leaderboard_table_wrapper');
