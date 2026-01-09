@@ -409,7 +409,7 @@ body {
 .leaderboard_wrapper {
     display: flex;
     min-height: 100vh;
-    background-color: rgba(0,0,248,0.9);
+    background-color: rgba(0,0,0,0.9);
 }
 
 /* changelog PAGE */
@@ -425,7 +425,7 @@ body {
     height: fit-content;
     padding-top: 4rem;
     padding-bottom: 2rem;
-    background-color: #ff9d00;
+    background-color: rgba(0,0,0,0.9);
     display: flex;
     justify-content: center;
     align-items: center;
