@@ -411,6 +411,12 @@ body {
     min-height: 100vh;
     background-color: rgba(0,0,0,0.9);
     color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaderboard_wrapper .leaderboard_table_wrapper {
+    width: 80%;
 }
 
 .leaderboard_wrapper .leaderboard_table_wrapper table{
