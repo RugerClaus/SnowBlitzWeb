@@ -420,7 +420,10 @@ body {
 }
 
 .leaderboard_wrapper .leaderboard_table_wrapper table{
-    border: 1px solid white;
+    border-top: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
     display: flex;
     flex-direction: column;
 }
