@@ -425,6 +425,14 @@ body {
     flex-direction: column;
 }
 
+.leaderboard_wrapper .leaderboard_table_wrapper table th {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
 .leaderboard_wrapper .leaderboard_table_wrapper table tr {
     display: flex;
     justify-content: space-evenly;
