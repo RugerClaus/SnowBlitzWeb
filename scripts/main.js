@@ -75,7 +75,7 @@ function render_leaderboard(items) {
 
   const header = table.createTHead();
   const headerRow = header.insertRow();
-  const headers = ['ID', 'Username', 'Score', 'Created At', 'Updated At'];
+  const headers = ['id', 'username', 'score', 'created_at', 'updated_at'];
   
   headers.forEach(headerText => {
     const th = document.createElement('th');
