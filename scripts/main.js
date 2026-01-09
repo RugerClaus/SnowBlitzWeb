@@ -93,7 +93,7 @@ function render_leaderboard(items) {
     row.insertCell().innerText = item.updated_at;
   });
 
-  const leaderboardContainer = document.getElementById('leaderboard_table_wrapper');
+  const leaderboardContainer = document.querySelector('.leaderboard_table_wrapper');
   leaderboardContainer.appendChild(table);
 }
 
