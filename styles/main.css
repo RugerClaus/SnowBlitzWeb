@@ -410,6 +410,11 @@ body {
     display: flex;
     min-height: 100vh;
     background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+.leaderboard_wrapper .leaderboard_table_wrapper table{
+    border-color: white;
 }
 
 /* changelog PAGE */
