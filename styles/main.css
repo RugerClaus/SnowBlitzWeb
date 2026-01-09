@@ -405,6 +405,13 @@ body {
 
 }
 
+/* leaderboard PAGE */
+.leaderboard_wrapper {
+    display: flex;
+    min-height: 100vh;
+    background-color: rgba(0,0,248,0.9);
+}
+
 /* changelog PAGE */
 .changelog_wrapper {
     display: flex;

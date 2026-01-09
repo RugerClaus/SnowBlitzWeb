@@ -37,7 +37,8 @@ const defaultItems = [
   }
 ];
 
-function render_carousel(items) {
+function render_carousel(items) 
+{
   items.forEach((img, index) => {
     const image = document.createElement('img');
     image.src = img.src;

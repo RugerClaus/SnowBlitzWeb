@@ -61,6 +61,7 @@
                 <li id="home_button"><a href="#home">Home</a></li>
                 <li id="about_button"><a href="#about">About</a></li>
                 <li id="download_button"><a href="#download">Download</a></li>
+                <li id="leaderboard_button"><a href="#leaderboard">Leaderboard</a></li>
                 <li id="changelog_button"><a href="#changelog">Changelog</a></li>
             </ul>
         </nav>
@@ -81,6 +82,7 @@
                             <li><a href="#home" class="leftbutton">Home</a></li>
                             <li><a href="#about" class="leftbutton">About the Game</a></li>
                             <li><a href="#download" class="rightbutton">Download</a></li>
+                            <li><a href="#leaderboard" class="rightbutton">Leaderboard</a></li>
                             <li><a href="#changelog" class="rightbutton">Changelog</a></li>
                         </ul>
                     </nav>
@@ -129,6 +131,10 @@
             <h2>Download Snow Blitz</h2>
             <p>Get the game today and start your survival journey! Available for Windows and Mac.</p>
             <a href="https://download-link.com" class="download_button">Download Now</a>
+        </section>
+
+        <section class="leaderboard_wrapper" id="leaderboard">
+            <div class="leaderboard_table_wrapper"></div>
         </section>
 
         <section class="changelog_wrapper" id="changelog">
