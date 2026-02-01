@@ -436,7 +436,7 @@ body {
 .changelog_wrapper {
     display: flex;
     min-height: 100vh;
-    background-color: rgba(0,0,0,0.4);
+    background-color: lightgrey;
 }
 
 .changelog_wrapper ul
