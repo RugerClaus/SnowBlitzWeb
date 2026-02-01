@@ -105,10 +105,10 @@
                 </div>
                 <div class="article_section_wrapper">
                     <article class="text_left_wrapper">
-                        <p id="left_home_text">Snow Blitz is an action-packed, fast-paced game where you control a snowball that is constantly melting</p>
+                        <p id="left_home_text">Snow Blitz is a casual arcade game, where you play as a snow ball. The temperature is high, so you must catch more snow to survive. Can you avoid the falling rocks, the ever increasing heat as you grow? Use power ups and other falling abilities to conquer the skies in this infinitely replayable, ever growing game!</p>
                     </article>
                     <article class="text_right_wrapper">
-                        <p id="right_home_text">Catch snow and grow before you melt. Watch out for falling rocks!</p>
+                        <p id="right_home_text">Enjoy an original sound track! Full of bouncy, sometimes awkwardly-paced music, that is sure to keep you focused on what matters: Catching snow flakes.</p>
                     </article>
                 </div>
             </div>
@@ -118,19 +118,45 @@
         <section class="about_wrapper" id="about">
             <h2>About Snow Blitz</h2>
             <p>Snow Blitz is a thrilling survival game where players must navigate through extreme snowstorms, avoid obstacles, and compete for high scores. The game features customizable characters, power-ups, and various modes.</p>
+            
+            <p>Snow Blitz was ulitimately born as a simple game, and it is meant to be a simple game. I have created a framework that I've redesigned the game on top of to allow for maximum flexibility. This means that player and community contributions are a large goal of this project. I don't own the outcome of this. You do! The source code is licensed under the GNU GPLv3 license to enforce openness.</p>
+          
+            <p>As seen on this page, the game has a built in leaderboard system. This is fully anonymous and privacy focused and is an opt in only feature. The game client prompts the player at first time start up if they want to opt in. You simply need to provide a username, and you will be automatically added to the database and your highest scores will post to the website every time you break them. The top 10 scores are visible from the leaderboard section of the main menu.</p>
+
+            <p>If you'd like to contribute to the game, you can visit the GitHub project here: https://github.com/rugerclaus/SnowBlitz</p>
+
+            <p>To report bugs, or request features, or submit feedback, please either use the issue tracker on GitHub, or send an email to <b>dev@snowblitz.net</b>.</p>
+
+            <p>The ultimate goal of this project, is to empower the community. Which is why the game and framework itself is designed with as much observability as possible. You'll find in the game files a <b>logs/</b> directory where all state transitions, events and errors are all held. This system provides robust possiblities for the game. So if you want to get your hands dirty, feel free to play around.</p>
             <p>Game Features:</p>
             <ul>
                 <li>Endless mode for high score challenges</li>
-                <li>Character customization</li>
-                <li>Unique power-ups and challenges</li>
+                <li>An online opt-in leaderboard system to compete with other players for the high score</li>
+                <li>Continuously updated content and features at the behest of the community</li>
+                <li>Is always going to be free and open source for all users and developers</li>
             </ul>
+           
+            <p>This games source code and updated binaries can be found in the <a href="#download">Downloads</a> page. You can also optionally purchase the game on Steam if you'd like to support the project!</p>
+
         </section>
 
         <!-- Download Section -->
         <section class="download_wrapper" id="download">
-            <h2>Download Snow Blitz</h2>
-            <p>Get the game today and start your survival journey! Available for Windows and Mac.</p>
-            <a href="https://download-link.com" class="download_button">Download Now</a>
+            <h1>Download Snow Blitz</h1>
+            <div class="download_link_wrapper">
+                <a href="https://snowblitz.net/downloads/SnowBlitz_Latest_Linux.zip" download>
+                    <img src="assets/tux.png" alt="Linux Download" class="tux">
+                </a>
+                <a href="https://snowblitz.net/downloads/SnowBlitz_Latest_Windows.zip" download>
+                    <img src="assets/windows.png" alt="Windows Download" class="windows">
+                </a>
+            </div>
+            <div class="linux_download_info">
+                    <h1>Download for Linux</h1>
+            </div>
+            <div class="windows_download_info">
+                    <h1>Download for Windows</h1>
+            </div>
         </section>
 
         <section class="leaderboard_wrapper" id="leaderboard">

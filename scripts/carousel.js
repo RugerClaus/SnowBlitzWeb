@@ -11,29 +11,29 @@ let blurbs = [];
 
 const defaultItems = [
   {
-    src: 'https://placehold.co/905x509?text=Test+Image+1',
-    caption: 'Default 1',
-    blurb: 'This is a placeholder image.'
+    src: 'assets/splash.png',
+    caption: 'RugerClaus Presents Snow Blitz',
+    blurb: 'Brought to you by fish.'
   },
   {
-    src: 'https://placehold.co/905x509?text=Test+Image+2',
-    caption: 'Default 2',
-    blurb: 'Another placeholder image.'
+    src: 'assets/gameplay1.png',
+    caption: 'Snow Blitz In Action',
+    blurb: "Welcome to Snow Blitz. It's too warm for snow, but it just won't stop snowing!"
   },
   {
-    src: 'https://placehold.co/905x509?text=Test+Image+3',
-    caption: 'Default 3',
-    blurb: 'Yet another placeholder.'
+    src: 'assets/tutorialmode.png',
+    caption: "Tutorial Mode",
+    blurb: "If you don't know how to play, we've made you a walkthrough!"
   },
   {
-    src: 'https://placehold.co/905x509?text=Test+Image+4',
-    caption: 'Default 4',
-    blurb: 'Final placeholder image.'
+    src: "assets/technology.png",
+    caption: 'Technology',
+    blurb: 'This game is built using the Distant Realms Python framework. It has a robust support for 2D games, and Snow Blitz is just the beginning!'
   },
   {
-    src: 'https://placehold.co/905x509?text=Test+Image+5',
-    caption: 'Default 5',
-    blurb: "Actual final one"
+    src: 'assets/pausemenu.png',
+    caption: 'Pause Menu',
+    blurb: "This game has basic game functionality, including entire menu trees. You can adjust audio settings from here. Video and input settings are coming soon."
   }
 ];
 

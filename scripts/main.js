@@ -117,3 +117,29 @@ fetch(`https://snowblitz.net/api/getLeaderboard.php`, {
 .catch((error) => {
   console.warn("Fetch error, no leaderboard data available", error);
 });
+
+const tux_img = document.querySelector('.download_link_wrapper img[alt="Linux Download"]');
+const linux_download_info = document.querySelector('.linux_download_info');
+
+tux_img.addEventListener('mouseenter', () => {
+    linux_download_info.classList.remove("hidden");
+    linux_download_info.style.display = "flex";
+});
+
+tux_img.addEventListener('mouseleave', () => {
+    tux_img.style.transform = "scale(1)";
+    linux_download_info.style.display = "none";
+});
+
+const windows_img = document.querySelector('.download_link_wrapper img[alt="Windows Download"]');
+const windows_download_info = document.querySelector('.windows_download_info');
+
+windows_img.addEventListener('mouseenter', () => {
+    windows_download_info.classList.remove("hidden");
+    windows_download_info.style.display = "flex";
+});
+
+windows_img.addEventListener('mouseleave', () => {
+    windows_img.style.transform = "scale(1)";
+    windows_download_info.style.display = "none";
+});
