@@ -122,7 +122,7 @@
         <!-- About Page section -->
         <section class="about_wrapper" id="about">
             <h2>About Snow Blitz</h2>
-            <p>Snow Blitz is a thrilling survival game where players must navigate through extreme snowstorms, avoid obstacles, and compete for high scores. The game features customizable characters, power-ups, and various modes.</p>
+            <p>Snow Blitz is a casual arcade game where the player needs to catch snowflakes to level up and prevent themselves from melting, avoid obstacles, and compete for high scores. Currently the game supports Endless mode (a procedurally generated leveling system with scaling for size). And a tutorial mode that show you how to play the game. Future updates will bring other game modes, and really anything the players suggest as it grows!</p>
             
             <p>Snow Blitz was ulitimately born as a simple game, and it is meant to be a simple game. I have created a framework that I've redesigned the game on top of to allow for maximum flexibility. This means that player and community contributions are a large goal of this project. I don't own the outcome of this. You do! The source code is licensed under the GNU GPLv3 license to enforce openness.</p>
           
