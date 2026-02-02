@@ -76,18 +76,8 @@
                 >>
             </div>
             <div class="socials_inner_wrapper">
-                <a href="https://www.facebook.com/people/Them-Coldblooded-Drifters/61574624801989/" target="_blank">
-                    <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/facebook.png" alt="Facebook">
-                </a>
-                <!-- Don't forget to come back and add target="_blank" -->
-                <a href="https://www.instagram.com/them_coldblooded_drifters/" >
-                    <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/instagram.png" alt="Instagram">
-                </a>
-                <a href="https://tiktok.com/@themcoldbloodeddrifters">
-                    <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/tiktok.png" alt="Tik Tok">
-                </a>
-                <a href="https://www.youtube.com/@ThemColdbloodedDrifters">
-                    <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/youtube.png" alt="YouTube">
+                <a href="https://discord.gg/PaWjydfUFX" target="_blank">
+                    <img src="assets/discord.png" alt="Facebook">
                 </a>
             </div>
         </div>
@@ -114,26 +104,8 @@
 
                             <div class="mobile_socmed_section">
                                 <li>
-                                <a href="https://www.facebook.com/people/Them-Coldblooded-Drifters/61574624801989/" target="_blank">
-                                    <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/facebook.png" alt="Facebook">
-                                </a>
-                            </li>
-                            <!-- Don't forget to come back and add target="_blank" -->
-                            <li>
-                                <a href="https://www.instagram.com/them_coldblooded_drifters/" target="_blank">
-                                    <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/instagram.png" alt="Instagram">
-                                </a>
-                            </li>
-                            </div>
-                            <div class="mobile_socmed_section">
-                                <li>
-                                    <a href="https://tiktok.com/@themcoldbloodeddrifters" target="_blank">
-                                        <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/tiktok.png" alt="Tik Tok">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/@ThemColdbloodedDrifters" target="_blank">
-                                        <img src="https://media.themcoldbloodeddrifters.com/assets/master/socials/youtube.png" alt="YouTube">
+                                    <a href="https://discord.gg/PaWjydfUFX" target="_blank">
+                                        <img src="assets/discord.png" alt="Facebook">
                                     </a>
                                 </li>
                             </div>

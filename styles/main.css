@@ -37,6 +37,12 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+.socials_sidebar_wrapper .socials_inner_wrapper a img
+{
+    width: 40px;
+    object-fit: contain;
+}
 .socials_sidebar_wrapper .close_socials_button {
     width: 2rem;
     height: 2rem;
@@ -623,12 +629,20 @@ footer .footer_section p {
     .landing_section_wrapper .bottom .bottom_inner_wrapper nav .mobile_socmed {
         display: flex;
         flex-direction: column;
+        max-width: 40%;
     }
     
-    .landing_section_wrapper .bottom .bottom_inner_wrapper nav .mobile_socmed .mobile_socmed_section {
+    .landing_section_wrapper .bottom .bottom_inner_wrapper .navbar .mobile_socmed .mobile_socmed_section {
         display: flex;
         justify-content: center;
         gap: 2rem;
+        max-width: 30%; 
+    }
+
+    .landing_section_wrapper .bottom .bottom_inner_wrapper .navbar .mobile_socmed .mobile_socmed_section li a
+    {
+           
+        object-fit: contain;
     }
 
     .socials_sidebar_wrapper {
