@@ -13,40 +13,37 @@
     </head>
 
     <style>
-        /* Snowflakes container */
+        
         #snowflakes {
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            pointer-events: none; /* Snowflakes won’t block clicks */
+            pointer-events: none;
         }
 
-        /* Snowflake style */
         .snowflake {
             position: absolute;
-            font-size: 20px; /* Size of the snowflakes */
+            font-size: 20px;
             color: white;
             opacity: 0.8;
             user-select: none;
-            z-index: 9999; /* Make sure snowflakes are on top */
+            z-index: 9999;
             animation: fall linear infinite;
         }
 
         .absorbrock {
             position: absolute;
-            font-size: 20px; /* Size of the snowflakes */
+            font-size: 20px;
             color: blue;
             opacity: 0.8;
             user-select: none;
             font-size: 15px;
-            z-index: 9999; /* Make sure snowflakes are on top */
+            z-index: 9999;
             animation: fall linear infinite;
         }
 
-
-        /* Snowflake animation */
         @keyframes fall {
             0% {
                 transform: translateY(0) rotate(0deg);
@@ -60,7 +57,6 @@
     </style>
     <body>
 
-        <!-- Fixed Elements - game download, social media links -->
         <nav class="fixed_navbar_wrapper">
             <ul>
                 <li id="home_button"><a href="#home">Home</a></li>
@@ -71,7 +67,6 @@
             </ul>
         </nav>
 
-        <!-- Landing Page -->
          <div id="snowflakes"></div>
         <section class="landing_section_wrapper">
             
@@ -95,7 +90,6 @@
             </div>
         </section>
 
-        <!-- Home Page section -->
         <section class="home_wrapper" id="home">
             <div class="main_content_wrapper">
                 <div class="announcements_wrapper">
@@ -119,7 +113,6 @@
             </div>
         </section>
 
-        <!-- About Page section -->
         <section class="about_wrapper" id="about">
             <h2>About Snow Blitz</h2>
             <p>Snow Blitz is a casual arcade game where the player needs to catch snowflakes to level up and prevent themselves from melting, avoid obstacles, and compete for high scores. Currently the game supports Endless mode (a procedurally generated leveling system with scaling for size). And a tutorial mode that show you how to play the game. Future updates will bring other game modes, and really anything the players suggest as it grows!</p>
@@ -145,7 +138,6 @@
 
         </section>
 
-        <!-- Download Section -->
         <section class="download_wrapper" id="download">
             <div class="linux_download_info">
                     <h1>Download for Linux</h1>
@@ -270,7 +262,6 @@
                 }
             }
 
-            // Call the function to create snowflakes every 100ms
             setInterval(createSnowflake, 100);
 
             let bluepowerups = [];
@@ -299,8 +290,6 @@
                     });
                 }
             }
-
-            // Call the function to create snowflakes every 100ms
             setInterval(createbpu, 100);
             
 
