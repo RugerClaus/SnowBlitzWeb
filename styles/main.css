@@ -479,6 +479,11 @@ body {
     justify-content: center;
 }
 
+.download_wrapper .download_instructions h2
+{
+    text-align: center;
+}
+
 .download_wrapper .download_instructions .windows_instructions,
 .download_wrapper .download_instructions .linux_instructions
 {

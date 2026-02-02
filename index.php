@@ -163,6 +163,7 @@
                     <h1>Download for Windows</h1>
             </div>
             <div class="download_instructions">
+                <h2>Windows Download Instructions: </h2>
                 <div class="windows_instructions">
                     <ul>
                         <li>1. Click on the Windows logo to download for Windows</li>
@@ -172,6 +173,7 @@
                         <li>5. Have fun!</li>
                     </ul>
                 </div>
+                <h2>Linux Download Instructions: </h2>
                 <div class="linux_instructions">
                     <ul>
                         <li>1. Click on Tux the penguin to download for Linux</li>
