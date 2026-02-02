@@ -147,6 +147,12 @@
 
         <!-- Download Section -->
         <section class="download_wrapper" id="download">
+            <div class="linux_download_info">
+                    <h1>Download for Linux</h1>
+            </div>
+            <div class="windows_download_info">
+                    <h1>Download for Windows</h1>
+            </div>
             <h1>Download Snow Blitz</h1>
             <div class="download_link_wrapper">
                 <a href="https://snowblitz.net/downloads/SnowBlitz_Latest_Linux.zip" download>
@@ -156,15 +162,9 @@
                     <img src="assets/windows.png" alt="Windows Download" class="windows">
                 </a>
             </div>
-            <div class="linux_download_info">
-                    <h1>Download for Linux</h1>
-            </div>
-            <div class="windows_download_info">
-                    <h1>Download for Windows</h1>
-            </div>
             <div class="download_instructions">
                 <h2>Windows Download Instructions: </h2>
-                <div class="windows_instructions">
+                <div class="instructions">
                     <ul>
                         <li>1. Click on the Windows logo to download for Windows</li>
                         <li>2. Extract the zip archive to wherever you please, (Desktop is easiest)</li>
@@ -174,7 +174,7 @@
                     </ul>
                 </div>
                 <h2>Linux Download Instructions: </h2>
-                <div class="linux_instructions">
+                <div class="instructions">
                     <ul>
                         <li>1. Click on Tux the penguin to download for Linux</li>
                         <li>2. Extract the zip archive to wherever you want (Usually you'll want an easy to reach directory like ~/home/user)</li>
@@ -183,6 +183,13 @@
                         <li>5. If using GNOME, right click on the executable and select "run as program"</li>
                         <li>5.1.  Otherwise open a terminal in the directory of the game, and run ./SnowBlitz_XXXX (X refers to what comes after SnowBlitz in this build, you should just be able to type S and press TAB.)</li>
                         <li>5.2. Have fun!</li>
+                    </ul>
+                </div>
+                <h2>Source Code: </h2>
+                <div class="instructions">
+                    <ul>
+                        <li>1. Click <a href="https://snowblitz.net/downloads/source/SnowBlitz_Beta_Source_Latest.zip" download>Source Code</a> to download the latest version's source code.</li>
+                        <li>2. Follow instructions in README file to install dependencies and run or build the program</li>
                     </ul>
                 </div>
             </div>
