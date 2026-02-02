@@ -8,6 +8,49 @@
     overflow-x: hidden;
 }
 
+.hiddensiteimg
+{
+    display: none;
+}
+
+.landing_section_wrapper .bottom .bottom_inner_wrapper nav .mobile_socmed {
+    display: none;
+}
+
+.socials_sidebar_wrapper {
+    position: fixed;
+    width: 8rem;
+    background-color: rgba(128,128,128,0.5);
+    right: 0;
+    top: 20vh;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials_sidebar_wrapper .socials_inner_wrapper {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socials_sidebar_wrapper .close_socials_button {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .hidden {
     display: none;
 }
@@ -252,10 +295,11 @@ body {
 }
 
 .home_wrapper .main_content_wrapper .article_section_wrapper article {
-    max-width: 30%;
-    border-radius: 2rem;
-    padding: 2rem;
     height: fit-content;
+}
+.home_wrapper .main_content_wrapper .article_section_wrapper article p 
+{
+    max-width: 40ch;
 }
 
 /* ABOUT PAGE */
@@ -489,6 +533,25 @@ footer .footer_section p {
 
 /* ANIMATIONS */
 
+
+@keyframes close_socials {
+    from {
+        width: 8rem;
+    }
+    to {
+        width: 2rem;
+    }
+}
+
+@keyframes open_socials {
+    from {
+        width: 2rem;
+    }
+    to {
+        width: 8rem;
+    }
+}
+
 @keyframes fade_button_right {
     0% {
         color: #ffffff;
@@ -567,6 +630,10 @@ footer .footer_section p {
         gap: 2rem;
     }
 
+    .socials_sidebar_wrapper {
+        display: none;
+    }
+
     .landing_section_wrapper 
     {
         top: 0;
@@ -639,8 +706,19 @@ footer .footer_section p {
     }
     .home_wrapper .main_content_wrapper .article_section_wrapper {
         flex-direction: column;
-        padding: 1rem !important;
-        gap: 2rem !important;
+        width: 100%;
+    }
+    .home_wrapper .main_content_wrapper .article_section_wrapper article 
+    {
+        width: 100%;
+    }
+    .home_wrapper .main_content_wrapper .article_section_wrapper article p 
+    {
+        width: 80ch;
+    }
+    .fixed_navbar_wrapper ul li
+    {
+        width: fit-content;
     }
 }
   
