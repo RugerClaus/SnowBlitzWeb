@@ -155,14 +155,11 @@
                         <div class="blurb_container"></div>
                     </div>
                 </div>
-                <div class="article_section_wrapper">
-                    <article class="text_left_wrapper">
-                        <p id="left_home_text">Snow Blitz is a casual arcade game, where you play as a snow ball. The temperature is high, so you must catch more snow to survive. Can you avoid the falling rocks, the ever increasing heat as you grow? Use power ups and other falling abilities to conquer the skies in this infinitely replayable, ever growing game!</p>
-                    </article>
-                    <article class="text_right_wrapper">
-                        <p id="right_home_text">Enjoy an original sound track! Full of bouncy, sometimes awkwardly-paced music, that is sure to keep you focused on what matters: Catching snow flakes.</p>
-                    </article>
-                </div>
+                
+            </div>
+            <div class="article_section_wrapper">
+                    <p id="left_home_text">Snow Blitz is a casual arcade game, where you play as a snow ball. The temperature is high, so you must catch more snow to survive. Can you avoid the falling rocks, the ever increasing heat as you grow? Use power ups and other falling abilities to conquer the skies in this infinitely replayable, ever growing game!</p>
+                    <p id="right_home_text">Enjoy an original sound track! Full of bouncy, sometimes awkwardly-paced music, that is sure to keep you focused on what matters: Catching snow flakes.</p>
             </div>
         </section>
 
