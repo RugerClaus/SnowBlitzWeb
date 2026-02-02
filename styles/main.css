@@ -145,7 +145,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 98%;
+    width: fit-content;
+    gap: 2rem;
 }
 
 .landing_section_wrapper .bottom .bottom_inner_wrapper nav ul li {
