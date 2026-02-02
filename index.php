@@ -77,7 +77,7 @@
             </div>
             <div class="socials_inner_wrapper">
                 <a href="https://discord.gg/PaWjydfUFX" target="_blank">
-                    <img src="assets/discord.png" alt="Facebook">
+                    <img src="assets/discord.png" alt="Snow Blitz Discord">
                 </a>
             </div>
         </div>
@@ -105,7 +105,7 @@
                             <div class="mobile_socmed_section">
                                 <li>
                                     <a href="https://discord.gg/PaWjydfUFX" target="_blank">
-                                        <img src="assets/discord.png" alt="Facebook">
+                                        <img src="assets/discord.png" alt="Snow Blitz Discord">
                                     </a>
                                 </li>
                             </div>
