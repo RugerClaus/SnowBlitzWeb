@@ -257,13 +257,15 @@ body {
 
 .home_wrapper .main_content_wrapper .article_section_wrapper {
     display: flex;
-    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: top;
+    justify-content: center;
     padding: 5rem;
     width: 100%;
 }
 
 .home_wrapper .main_content_wrapper .article_section_wrapper article {
-    max-width: 20rem;
+    max-width: 30%;
     border-radius: 2rem;
     padding: 2rem;
     height: fit-content;
