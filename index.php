@@ -5,6 +5,12 @@
         <meta name="description" content="Snow Blitz - Official site.">
         <meta name="keywords" content="survival game, arcade, Snow Blitz, gameplay, high scores, power-ups, snowstorms, endless mode, leaderboard, open source, community-driven, free game, indie game, Steam, downloadable game, game developer, open source, GNU GPLv3, game engine, game framework, game customization, modding, free to play">
         <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Snow Blitz - Official Website">
+        <meta property="og:description" content="Snow Blitz is a casual arcade game where you catch snowflakes and avoid obstacles. Free and open-source!">
+        <meta property="og:image" content="https://snowblitz.net/assets/logo.png">
+        <meta property="og:url" content="https://snowblitz.net">
+        <meta property="og:type" content="website">
+
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
