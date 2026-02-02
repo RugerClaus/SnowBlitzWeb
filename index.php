@@ -193,6 +193,14 @@
         </section>
 
         <section class="changelog_wrapper" id="changelog">
+
+            <h3>Development version Beta 0.9.1 - 2026-02-01: </h3>
+            <ul>
+                <li>- Deployed application for first round of playtesting</li>
+                <li>- No currently known issues with this build</li>
+                <li>- Optimized Build Script to remove internal assets after build completion</li>
+            </ul>
+
         </section>
 
         <footer>
