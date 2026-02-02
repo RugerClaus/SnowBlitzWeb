@@ -162,6 +162,28 @@
             <div class="windows_download_info">
                     <h1>Download for Windows</h1>
             </div>
+            <div class="download_instructions">
+                <div class="windows_instructions">
+                    <ul>
+                        <li>1. Click on the Windows logo to download for Windows</li>
+                        <li>2. Extract the zip archive to wherever you please, (Desktop is easiest)</li>
+                        <li>3. Open the folder you extracted</li>
+                        <li>4. Double click on SnowBlitz_XXXX.exe, which should be the only file along with three other folders</li>
+                        <li>5. Have fun!</li>
+                    </ul>
+                </div>
+                <div class="linux_instructions">
+                    <ul>
+                        <li>1. Click on Tux the penguin to download for Linux</li>
+                        <li>2. Extract the zip archive to wherever you want (Usually you'll want an easy to reach directory like ~/home/user)</li>
+                        <li>3. Open the folder you extract</li>
+                        <li>4. You should be able to double click on the single executable file and open the program. If not proceed to step 5.</li>
+                        <li>5. If using GNOME, right click on the executable and select "run as program"</li>
+                        <li>5.1.  Otherwise open a terminal in the directory of the game, and run ./SnowBlitz_XXXX (X refers to what comes after SnowBlitz in this build, you should just be able to type S and press TAB.)</li>
+                        <li>5.2. Have fun!</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section class="leaderboard_wrapper" id="leaderboard">
