@@ -143,7 +143,7 @@
           
             <p>As seen on this page, the game has a built in leaderboard system. This is fully anonymous and privacy focused and is an opt in only feature. The game client prompts the player at first time start up if they want to opt in. You simply need to provide a username, and you will be automatically added to the database and your highest scores will post to the website every time you break them. The top 10 scores are visible from the leaderboard section of the main menu.</p>
 
-            <p>If you'd like to contribute to the game, you can visit the GitHub project here: https://github.com/rugerclaus/SnowBlitz</p>
+            <p>If you'd like to contribute to the game, you can visit the GitHub project here: <a href="https://github.com/rugerclaus/SnowBlitz">Snow Blitz Production GitHub Repository</a></p>
 
             <p>To report bugs, or request features, or submit feedback, please either use the issue tracker on GitHub, or send an email to <b>dev@snowblitz.net</b>.</p>
 
