@@ -83,45 +83,6 @@ body {
     height: 100%;
 }
 
-.band_member_nav {
-    display: none;
-    position: fixed;
-    top: 2rem;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-}
-
-.band_member_nav ul {
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
-}
-
-.band_member_nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.band_member_nav ul li a {
-    background-color: rgba(83, 0, 47, 0.5);
-    color: white;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: clamp(.3rem, 2vw + .4rem, 1rem);
-}
-
 .landing_section_wrapper {
     height: auto;
     display: flex;
@@ -468,6 +429,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .download_wrapper h1
@@ -485,6 +447,7 @@ body {
     justify-content: center;
     justify-self: center;
     align-items: center;
+    overflow: visible;
 }
 .download_wrapper .download_link_wrapper a{
     display: flex;
