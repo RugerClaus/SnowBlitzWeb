@@ -17,14 +17,6 @@ body {
     max-width: 100vw;
 }
 
-.fixed_navbar_wrapper ul .music_portal_link {
-    display: none;
-}
-
-.fixed_navbar_wrapper ul .merch_store_link {
-    display: none;
-}
-
 .active_page_section_button {
     background-color: white;
     color: black;
@@ -168,10 +160,6 @@ body {
     color: #b6f5f0;
 }
 
-.landing_section_wrapper .bottom .bottom_inner_wrapper nav .mobile_socmed {
-    display: none;
-}
-
 /* HOME PAGE */
 .home_wrapper {
     min-height: 100vh;
@@ -300,50 +288,6 @@ body {
 .lefttoright {
     max-width: 80%;
     
-}
-
-.about_wrapper .band_wrapper .article .band_photo_wrapper img {
-    object-fit: contain;
-    max-width: 90%;
-}
-
-.about_wrapper .article .about_them_cbd_text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    max-width: 56.5625rem;
-    height: fit-content;
-}
-
-.about_wrapper .member_wrapper {
-    display: flex;
-    width: 100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 5rem;
-    gap: 10rem;
-    justify-content: space-evenly;
-    min-height: 100vh;
-}
-
-.about_wrapper .member_wrapper .portrait_photo_wrapper {
-    width: 50%;
-}
-.about_wrapper .member_wrapper .portrait_photo_wrapper img {
-    object-fit: contain;
-    max-width: 100%;
-}
-
-/*THIS IS .about_wrapper .member_wrapper .text_wrapper*/
-.text_wrapper {
-    color: black;
-    font-size: 1.2rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 50%;
 }
 
 .text_wrapper .bio_wrapper {
@@ -652,9 +596,6 @@ footer .footer_section p {
     .landing_section_wrapper .bottom .bottom_inner_wrapper .navbar ul{
         flex-direction: column;
         gap: 2rem;
-    }
-    .about_wrapper .band_wrapper .article .band_photo_wrapper {
-        width: 95vw;
     }
     
 }
