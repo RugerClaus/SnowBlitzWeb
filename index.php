@@ -228,6 +228,21 @@
                 <li>- Optimized Build Script to remove internal assets after build completion</li>
             </ul>
 
+            <h3>Development version Beta 0.9.2 - 2026-02-03</h3> 
+            
+            <ul>
+
+                <li>- Overhauled LeaderboardViewer to use a state machine for fetching data for better management of state</li>
+                <li>- Prettied up UI in leaderboard</li>
+                <li>- Removed the last vestiges of pygame from outside core/guts</li>
+                <li>- Began implementing the Keys class in core/guts/input to map keys for the framework and input manager.</li>
+                <li>- Revamped build system separately for windows and linux, you still need a bash shell for windows though</li>
+                <li>- Added a file for tracking feature requests as well as a file for tracking active bugs</li>
+                <li>- Added a NEW SYSTEM for updating the application at the click of a button </li>
+                <li>- Added updater executable that gets created at build time so that the game can update</li>ss            
+            
+            </ul>
+
         </section>
 
         <footer>
