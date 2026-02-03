@@ -239,7 +239,7 @@
                 <li>- Revamped build system separately for windows and linux, you still need a bash shell for windows though</li>
                 <li>- Added a file for tracking feature requests as well as a file for tracking active bugs</li>
                 <li>- Added a NEW SYSTEM for updating the application at the click of a button </li>
-                <li>- Added updater executable that gets created at build time so that the game can update</li>ss            
+                <li>- Added updater executable that gets created at build time so that the game can update</li>
             
             </ul>
 
