@@ -407,12 +407,17 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 50%;
-    justify-content: left;
+    max-width: 40%;
     text-align: left;
     margin-bottom: 3rem;
 }
 
+.changelog_wrapper ul li
+{
+    max-width: 70ch;
+    
+    
+}
 
 /* download PAGE */
 .download_wrapper {
