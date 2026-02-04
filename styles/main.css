@@ -413,6 +413,7 @@ body {
 .changelog_wrapper ul li
 {
     max-width: 70ch;
+    text-align: left;
 }
 
 /* download PAGE */
