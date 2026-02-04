@@ -74,6 +74,7 @@
                 <li id="download_button"><a href="#download">Download</a></li>
                 <li id="leaderboard_button"><a href="#leaderboard">Leaderboard</a></li>
                 <li id="changelog_button"><a href="#changelog">Changelog</a></li>
+                <li id=""><a href="archive.php">Archive</a></li>
             </ul>
         </nav>
 
@@ -233,7 +234,6 @@
             <h3>Development version Beta 0.9.2 - 2026-02-03</h3> 
             
             <ul>
-
                 <li>- Overhauled LeaderboardViewer to use a state machine for fetching data for better management of state</li>
                 <li>- Prettied up UI in leaderboard</li>
                 <li>- Removed the last vestiges of pygame from outside core/guts</li>
@@ -242,7 +242,6 @@
                 <li>- Added a file for tracking feature requests as well as a file for tracking active bugs</li>
                 <li>- Added a NEW SYSTEM for updating the application at the click of a button </li>
                 <li>- Added updater executable that gets created at build time so that the game can update</li>
-            
             </ul>
 
             <h3>Development version Beta 0.9.3 - 2026-02-04</h3>
