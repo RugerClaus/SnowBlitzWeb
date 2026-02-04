@@ -160,7 +160,8 @@
                 <li>An online opt-in leaderboard system to compete with other players for the high score</li>
                 <li>Continuously updated content and features at the behest of the community</li>
                 <li>Is always going to be free and open source for all users and developers</li>
-                <li>Has an automatic update feature built into the client to allow players a single click experience for updating the game client to new versions</li>
+                <li>Has an automatic update feature built into the client to allow players a single</li>
+                <li>click experience for updating the game client to new versions</li>
             </ul>
            
             <p>This games source code and updated binaries can be found in the <a href="#download">Downloads</a> page. You can also optionally purchase the game on Steam if you'd like to support the project!</p>
