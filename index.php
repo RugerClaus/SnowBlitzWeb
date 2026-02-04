@@ -246,21 +246,21 @@
             </ul>
 
             <h3>Development version Beta 0.9.3 - 2026-02-04</h3>
-
-            <li>- Fixed a bug where linux builds would not start if they were running a version of python previous to 3.12</li>
-            <li>&#9- Mainly due to an issue where newer versions of python allow f strings to use """" rather than "''", which while handy as a feature</li>
-            <li>&#9- Causes ungodly compatibility issues</li>
-            <li>- Fixed a bug where the PLAYER_POWER_STATE was being set to PowerUpType.TYPE, which is a totally impossible transition.</li>
-            <li>&#9- logging for invalid state transitions is paying dividends now</li>
-            <li>- Made button hover UI more uniform setting a standard color for text when mouse is hovering over a button</li>
-            <li>&#9- active buttons will have text that turns PURPLE when hovering and will change the program state to whatever that button does</li>
-            <li>&#9- inactive buttons will have text that turns GREY when hovering and will not change anything in the program state</li>
-            <li>- Added button to link to the website from the game</li>
-            <li>- Made update button pop out and more obvious with contrasting background color and added text near the title indicating update availability</li>
-            <li>- Set alpha value on button surfaces (this should have been done months ago)</li>
-            <li>- Set max volume to 5 and changed default volume to 3</li>
-            <li>- Made tutorial prompts check the actual key bindings to tell the player how to play</li>            
-
+                <ul>
+                    <li>- Fixed a bug where linux builds would not start if they were running a version of python previous to 3.12</li>
+                    <li>&#9- Mainly due to an issue where newer versions of python allow f strings to use """" rather than "''", which while handy as a feature</li>
+                    <li>&#9- Causes ungodly compatibility issues</li>
+                    <li>- Fixed a bug where the PLAYER_POWER_STATE was being set to PowerUpType.TYPE, which is a totally impossible transition.</li>
+                    <li>&#9- logging for invalid state transitions is paying dividends now</li>
+                    <li>- Made button hover UI more uniform setting a standard color for text when mouse is hovering over a button</li>
+                    <li>&#9- active buttons will have text that turns PURPLE when hovering and will change the program state to whatever that button does</li>
+                    <li>&#9- inactive buttons will have text that turns GREY when hovering and will not change anything in the program state</li>
+                    <li>- Added button to link to the website from the game</li>
+                    <li>- Made update button pop out and more obvious with contrasting background color and added text near the title indicating update availability</li>
+                    <li>- Set alpha value on button surfaces (this should have been done months ago)</li>
+                    <li>- Set max volume to 5 and changed default volume to 3</li>
+                    <li>- Made tutorial prompts check the actual key bindings to tell the player how to play</li>            
+                </ul>
         </section>
 
         <footer>
