@@ -409,12 +409,13 @@ body {
     gap: 1rem;
     max-width: 80%;
     text-align: left;
+    margin-bottom: 3rem;
 }
 
 .changelog_wrapper ul li
 {
     max-width: 70ch;
-    margin-bottom: 3rem;
+    
     
 }
 
