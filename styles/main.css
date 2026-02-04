@@ -408,12 +408,14 @@ body {
     flex-direction: column;
     gap: 1rem;
     max-width: 80%;
+    text-align: left;
 }
 
 .changelog_wrapper ul li
 {
     max-width: 70ch;
-    text-align: left;
+    margin-bottom: 3rem;
+    
 }
 
 /* download PAGE */
