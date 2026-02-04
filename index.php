@@ -74,7 +74,7 @@
                 <li id="download_button"><a href="#download">Download</a></li>
                 <li id="leaderboard_button"><a href="#leaderboard">Leaderboard</a></li>
                 <li id="changelog_button"><a href="#changelog">Changelog</a></li>
-                <li id=""><a href="archive.php">Archive</a></li>
+                
             </ul>
         </nav>
 
@@ -106,6 +106,7 @@
                             <li><a href="#download" class="rightbutton">Download</a></li>
                             <li><a href="#leaderboard" class="rightbutton">Leaderboard</a></li>
                             <li><a href="#changelog" class="rightbutton">Changelog</a></li>
+                            <li><a href="archive.php" class="rightbutton">Archive</a></li>
                         </ul>
                         <ul class="mobile_socmed">
 
