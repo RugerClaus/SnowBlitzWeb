@@ -247,21 +247,34 @@
             </ul>
 
             <h3>Development version Beta 0.9.3 - 2026-02-04</h3>
-                <ul>
-                    <li>- Fixed a bug where linux builds would not start if they were running a version of python previous to 3.12</li>
-                    <li>---- Mainly due to an issue where newer versions of python allow f strings to use """" rather than "''", which while handy as a feature</li>
-                    <li>---- Causes ungodly compatibility issues</li>
-                    <li>- Fixed a bug where the PLAYER_POWER_STATE was being set to PowerUpType.TYPE, which is a totally impossible transition.</li>
-                    <li>---- logging for invalid state transitions is paying dividends now</li>
-                    <li>- Made button hover UI more uniform setting a standard color for text when mouse is hovering over a button</li>
-                    <li>---- active buttons will have text that turns PURPLE when hovering and will change the program state to whatever that button does</li>
-                    <li>---- inactive buttons will have text that turns GREY when hovering and will not change anything in the program state</li>
-                    <li>- Added button to link to the website from the game</li>
-                    <li>- Made update button pop out and more obvious with contrasting background color and added text near the title indicating update availability</li>
-                    <li>- Set alpha value on button surfaces (this should have been done months ago)</li>
-                    <li>- Set max volume to 5 and changed default volume to 3</li>
-                    <li>- Made tutorial prompts check the actual key bindings to tell the player how to play</li>            
-                </ul>
+            <ul>
+                <li>- Fixed a bug where linux builds would not start if they were running a version of python previous to 3.12</li>
+                <li>---- Mainly due to an issue where newer versions of python allow f strings to use """" rather than "''", which while handy as a feature</li>
+                <li>---- Causes ungodly compatibility issues</li>
+                <li>- Fixed a bug where the PLAYER_POWER_STATE was being set to PowerUpType.TYPE, which is a totally impossible transition.</li>
+                <li>---- logging for invalid state transitions is paying dividends now</li>
+                <li>- Made button hover UI more uniform setting a standard color for text when mouse is hovering over a button</li>
+                <li>---- active buttons will have text that turns PURPLE when hovering and will change the program state to whatever that button does</li>
+                <li>---- inactive buttons will have text that turns GREY when hovering and will not change anything in the program state</li>
+                <li>- Added button to link to the website from the game</li>
+                <li>- Made update button pop out and more obvious with contrasting background color and added text near the title indicating update availability</li>
+                <li>- Set alpha value on button surfaces (this should have been done months ago)</li>
+                <li>- Set max volume to 5 and changed default volume to 3</li>
+                <li>- Made tutorial prompts check the actual key bindings to tell the player how to play</li>            
+            </ul>
+            <h3>Development version Beta 0.9.4 - 2026-02-04</h3>
+            <ul>
+                <li>Added to the splash screen system and introduced game mechanics in the loading screen</li>
+                <li>Fixed a bug where entities would artifact at the top left hand corner of the screen</li>
+                <li>Made player's username flash if they are on the leaderboard</li>
+                <li>Renamed APPMODE to DEBUG_STATE and rehandled it as a debug overlay state manager</li>
+                <li>Put all environment specific logic into an <code>example.config.py</code> and made <code>setup.py</code> to load the real config file for the dev</li>
+                <li>Added a score multiplier</li>
+                <li>Added new entity type: Multiplier Upgrade</li>
+                <li>Added masking for player collisions</li>
+                <li>Added Multiplier Upgrade section to Tutorial Mode</li>
+                <li>Implemented a half baked daylight cycle that is not ready for the game</li>
+            </ul>
         </section>
 
         <footer>
