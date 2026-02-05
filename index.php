@@ -264,16 +264,16 @@
             </ul>
             <h3>Development version Beta 0.9.4 - 2026-02-04</h3>
             <ul>
-                <li>Added to the splash screen system and introduced game mechanics in the loading screen</li>
-                <li>Fixed a bug where entities would artifact at the top left hand corner of the screen</li>
-                <li>Made player's username flash if they are on the leaderboard</li>
-                <li>Renamed APPMODE to DEBUG_STATE and rehandled it as a debug overlay state manager</li>
-                <li>Put all environment specific logic into an <code>example.config.py</code> and made <code>setup.py</code> to load the real config file for the dev</li>
-                <li>Added a score multiplier</li>
-                <li>Added new entity type: Multiplier Upgrade</li>
-                <li>Added masking for player collisions</li>
-                <li>Added Multiplier Upgrade section to Tutorial Mode</li>
-                <li>Implemented a half baked daylight cycle that is not ready for the game</li>
+                <li>- Added to the splash screen system and introduced game mechanics in the loading screen</li>
+                <li>- Fixed a bug where entities would artifact at the top left hand corner of the screen</li>
+                <li>- Made player's username flash if they are on the leaderboard</li>
+                <li>- Renamed APPMODE to DEBUG_STATE and rehandled it as a debug overlay state manager</li>
+                <li>- Put all environment specific logic into an <code>example.config.py</code> and made <code>setup.py</code> to load the real config file for the dev</li>
+                <li>- Added a score multiplier</li>
+                <li>- Added new entity type: Multiplier Upgrade</li>
+                <li>- Added masking for player collisions</li>
+                <li>- Added Multiplier Upgrade section to Tutorial Mode</li>
+                <li>- Implemented a half baked daylight cycle that is not ready for the game</li>
             </ul>
         </section>
 
