@@ -64,10 +64,6 @@
     </style>
     <body>
 
-        <div class="hiddensiteimg">
-            <img src="assets/logo.png" alt="">
-        </div>
-
         <nav class="fixed_navbar_wrapper">
             <ul>
                 <li id="home_button"><a href="#home">Home</a></li>
