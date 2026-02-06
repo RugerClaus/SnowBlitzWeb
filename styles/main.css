@@ -739,5 +739,8 @@ footer .footer_section p {
     {
         max-width: 80%;
     }
+    .changelog_wrapper ul li {
+        max-width: 100%;
+    }
 }
   
