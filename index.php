@@ -258,7 +258,7 @@
                 <li>- Set max volume to 5 and changed default volume to 3</li>
                 <li>- Made tutorial prompts check the actual key bindings to tell the player how to play</li>            
             </ul>
-            <h3>Development version Beta 0.9.4 - 2026-02-04</h3>
+            <h3>Development version Beta 0.9.5 - 2026-02-04</h3>
             <ul>
                 <li>- Added to the splash screen system and introduced game mechanics in the loading screen</li>
                 <li>- Fixed a bug where entities would artifact at the top left hand corner of the screen</li>
