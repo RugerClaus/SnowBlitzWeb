@@ -303,9 +303,18 @@ body {
     width: 100%;
 }
 
-.home_wrapper .article_section_wrapper p {
+.home_wrapper .article_section_wrapper .home_display {
     height: fit-content;
     max-width: 40ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_wrapper .article_section_wrapper .home_display ul li {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -727,7 +736,7 @@ footer .footer_section p {
         flex-direction: column;
         align-items: center;
     }
-    .home_wrapper .article_section_wrapper p
+    .home_wrapper .article_section_wrapper .bug_detectives
     {
         width: 80vw;
     }
