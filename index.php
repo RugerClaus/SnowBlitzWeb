@@ -287,6 +287,15 @@
                 <li>- Added Multiplier Upgrade section to Tutorial Mode</li>
                 <li>- Implemented a half baked daylight cycle that is not ready for the game</li>
             </ul>
+
+            <h3>Development version Beta 0.9.6 - 2026-02-08</h3>
+            <ul>
+                <li>- Added Speed Boost powerup</li>
+                <li>- Added the ability to slow the player down by holding shift</li>
+                <li>- Added SPEED_STATE for managing player speed (SLOW,NORMAL,FAST)</li>
+                <li>- Added API key on both client and server to maintain database integrity</li>
+                <li>- Added system to show latest changelog upon updating, but only then</li>
+            </ul>
         </section>
 
         <footer>
